@@ -1,0 +1,63 @@
+/* General Page Styling */
+body {
+    background-color: rgba(47, 148, 148, 0.722);
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #163b40; /* Example consistent color */
+    color: white;
+    padding: 20px;
+    height: 100vh; /* Full-page height */
+    position: static;
+    width: 200px;
+}
+
+/* Header/Logo Styling */
+header {
+    background-color: #163b40; /* Same color as sidebar */
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Login/Register Forms */
+.form-container {
+    background-color: rgb(58, 87, 87); /* Consistent container color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 50px auto;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #163b40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a5a5a;
+}
